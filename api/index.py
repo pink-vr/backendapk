@@ -8,9 +8,9 @@ import os
 
 class GameInfo:
     def __init__(self):
-        self.TitleId: str = ""
-        self.SecretKey: str = ""
-        self.ApiKey: str = ""
+        self.TitleId: str = "1079AC"
+        self.SecretKey: str = "P3KZTIFJ678SKD5GQAF8JMD89YJPZCP46AJRT95DXKZ54EZBEW"
+        self.ApiKey: str = "1258481424013483"
 
     def get_auth_headers(self):
         return {"content-type": "application/json", "X-SecretKey": self.SecretKey}
